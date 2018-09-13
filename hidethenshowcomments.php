@@ -52,4 +52,4 @@ function apply_restrictions() {
         add_action( 'the_post', 'check_and_hide_comments');
     }
 }
-add_action('init', apply_restrictions);
+add_action('init', 'apply_restrictions');
